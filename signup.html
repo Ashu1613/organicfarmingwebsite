@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Charity Fundraisier</title>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="signup.css">
+    <script src="validation.js"></script>
+
+</head>
+
+<body>
+	<div class="Signup__container">
+		<form action="order.html" name="myForm" method="post" onsubmit="return validateForm()" style="margin: 3.4rem;;">
+			<h1>Registration</h1>
+			<div class="signin__container--block">
+				<div class="input-box" id="name">
+					<input type="text" name="fname" placeholder="FullName" >
+					<div class="icon-container"><i class='bx bxs-user'></i></div>
+					<span class="formerror"></span>
+				</div>
+				<div class="input-box" id="uname">
+					<input type="text" name="uname" placeholder="UserName">
+					<div class="icon-container"><i class='bx bxs-user'></i></div>
+					<span class="formerror"></span>
+				</div>
+			</div><br><br>
+			<div class="signin__container--block">
+				<div class="input-box" id="email">
+					<input type="email" name="email" placeholder="Email" >
+					<div class="icon-container"><i class='bx bxs-envelope'></i></div>
+					<span class="formerror"></span>
+				</div>
+				<div class="input-box" id="phone">
+					<input type="Number" name="phone" placeholder="Number">
+					<div class="icon-container"><i class='bx bxs-phone' ></i></div>
+					<span class="formerror"></span>
+
+				</div>
+			</div><br><br>
+			<div class="signin__container--block">
+				<div class="input-box" id="pass">
+					<input type="password" name="pass" placeholder="Password" >
+					<div class="icon-container"><i class='bx bxs-lock-alt' ></i></div>
+					<span class="formerror"></span>
+				</div>
+				<div class="input-box" id="cpass">
+					<input type="password" name="cpass" placeholder="Confrim Password">
+					<div class="icon-container"><i class='bx bxs-lock-alt' ></i></div>
+					<span class="formerror"></span>
+				</div>
+			</div><br>
+			<label for="" style="margin: 0 1rem;"><input type="checkbox">I hereby declared that the above information provided
+				is true and correct
+			</label><br>
+			<button type="submit" class="btn">Register</button>
+		</div>
+	</form>
+
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+.organic__farming--info{
+  display: flex;
+	margin-top: 4rem;
+	margin-left: 2rem;
+}
+
+
+.organic__farming-heding-para h1{
+	font-size: 2.2rem;
+}
+
+.organic__farming-heding-para p{
+	font-size: 1.2rem;
+	margin-top: 1.2rem;
+	line-height: 1.8rem;
+	text-align: justify;
+	width: 32rem;
+}
+ 
+.organic__farming---img{
+	margin-top: 4rem;
+	margin-left: 10rem;
+
+}
+
+.organic__farming--img{
+	margin-left: 10rem;
+	margin-top: 7rem;
+}
+
+.organic__farming--img img{
+	width: 40rem;
+}
